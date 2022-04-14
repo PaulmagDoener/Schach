@@ -5,7 +5,7 @@ using System.Windows.Forms;
 
 namespace Schach
 {
-    public partial class Form1 : Form
+    public partial class Schachbrett : Form
     {
         #region Konstanten
         private const int FELDGRÖßE = 60;
@@ -18,7 +18,7 @@ namespace Schach
         public readonly Figur[,] Stellung = new Figur[8, 8];
         public readonly PictureBox[,] Spielfeld = new PictureBox[8, 8];
 
-        public Form1()
+        public Schachbrett()
         {
             InitializeComponent();
         }

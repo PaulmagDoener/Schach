@@ -1,7 +1,7 @@
 ﻿
 namespace Schach
 {
-    partial class Form1
+    partial class Schachbrett
     {
         /// <summary>
         /// Erforderliche Designervariable.

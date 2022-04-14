@@ -53,16 +53,16 @@
     <Compile Include="Figuren\Bauer.cs" />
     <Compile Include="Figuren\Figur.cs" />
     <Compile Include="Figuren\Turm.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Schachbrett.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Schachbrett.Designer.cs">
+      <DependentUpon>Schachbrett.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Schachbrett.resx">
+      <DependentUpon>Schachbrett.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

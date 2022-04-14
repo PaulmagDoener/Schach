@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{CCC88579-AC84-487E-86F7-C3E66D6CE086}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>SNAKE</RootNamespace>
-    <AssemblyName>SNAKE</AssemblyName>
+    <RootNamespace>Schach</RootNamespace>
+    <AssemblyName>Schach</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,6 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Figuren\Dame.cs" />
+    <Compile Include="Figuren\König.cs" />
+    <Compile Include="Figuren\Läufer.cs" />
+    <Compile Include="Figuren\Springer.cs" />
+    <Compile Include="Figuren\Bauer.cs" />
+    <Compile Include="Figuren\Figur.cs" />
+    <Compile Include="Figuren\Turm.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,6 +72,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +86,42 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chess_bdt60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chess_blt60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chess_kdt60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chess_klt60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chess_ndt60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chess_nlt60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chess_pdt60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chess_plt60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chess_qdt60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chess_qlt60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chess_rdt60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chess_rlt60.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

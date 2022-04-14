@@ -1,5 +1,5 @@
 ﻿
-namespace SNAKE
+namespace Schach
 {
     partial class Form1
     {
